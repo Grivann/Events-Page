@@ -1,0 +1,55 @@
+*{
+    color: white;
+}
+
+.card{
+    height: 23vw;
+    width: 30vw;
+    background: radial-gradient(circle at bottom right, #06853b, #0f0f0f);
+    border-radius: 20px;
+    margin-bottom: 7.5vw;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+.cardIcon{
+    width: 13vw;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.cardIcon div{
+    width: 4vw;
+    height: 4vw;
+    background-color: grey;
+    border-radius: 50%;
+}
+h3{
+    margin: 0 0 11.2px 0;
+}
+p{
+    margin: 0;
+}
+.apply{
+    justify-self: flex-end;
+    height: 20%;
+}
+a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+i{
+    height: 24px;
+    width: 24px;
+}

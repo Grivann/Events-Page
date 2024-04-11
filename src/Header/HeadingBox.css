@@ -1,0 +1,9 @@
+.headingBox{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+
+}
+.headingBox p:hover{
+    color: #22C55E;
+}

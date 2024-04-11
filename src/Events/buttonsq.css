@@ -1,0 +1,10 @@
+.sqbtn{
+    font-size: .9vw;
+    width: 30%;
+    height: 2.7rem;
+    border-radius: 2vw;
+    padding: 0px;
+    border: white solid 2px;
+    background: none;
+    font-weight: 600;
+}
