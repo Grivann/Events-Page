@@ -4,9 +4,9 @@ import './eventTop.css'
 function EventTop() {
     return (
       <>
-    <div className="eventTop" style={{display:"flex", justifyContent:"space-between"}}>
+    <div className="eventTop">
     <div>
-    <h1>EVENTS</h1>
+    <h1>Events</h1>
       <p>Challenge your limits with events full of uncertainities</p>
     </div>
 

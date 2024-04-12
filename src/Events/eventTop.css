@@ -1,4 +1,20 @@
 .eventTop{
     display: flex;
-    
+    justify-content: space-between;
+}
+.eventTop h1{
+    font-size: 68px;
+    font-weight: 600;
+}
+
+@media(max-width:750px){
+    .eventTop{
+        flex-direction: column;
+    }
+    .eventTop h1{
+        font-size: 40px;
+    }
+    .eventTop p{
+        font-size: 3vw;
+    }
 }

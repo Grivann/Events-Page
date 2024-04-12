@@ -5,17 +5,23 @@
 }
 
 .topBtnBox button {
-    height: 5vh;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.topBtn2 {
     background-color: rgb(69, 219, 156);
     border-radius: .5vw;
-    color: black;
-    font-weight: 600;
+    color: #042F2E;
     border: none;
-    padding: 12px 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    margin-right: 20px;
+    height: 40px;
+    width: 102px;
+}
+.topBtn1 {
+    background-color: rgba(69, 219, 156,0);
+    border-radius: .5vw;
+    color: white;
+    border: rgb(69, 219, 156) 2px solid;
+    height: 44px;
+    width: 93px;
 }

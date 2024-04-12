@@ -6,6 +6,7 @@
     height: 23vw;
     width: 30vw;
     background: radial-gradient(circle at bottom right, #06853b, #0f0f0f);
+    /* background-image: url(/Images/ideastorm.webp); */
     border-radius: 20px;
     margin-bottom: 7.5vw;
 }
@@ -35,21 +36,41 @@
     background-color: grey;
     border-radius: 50%;
 }
-h3{
+.cardHeading{
     margin: 0 0 11.2px 0;
+    font-size: 2.2vw;
 }
-p{
+.cardText{
     margin: 0;
+    font-size: 0.9vw;
 }
 .apply{
     justify-self: flex-end;
     height: 20%;
+    margin-top: auto;
+     font-size: 0.9vw;
 }
 a{
     text-decoration: none;
     margin-right: 15px;
 }
-i{
-    height: 24px;
-    width: 24px;
+
+@media(max-width:750px){
+    .card{
+        width: 85vw;
+        height: 62vw;
+    }
+    .cardText{
+        font-size: 2.7vw;
+    }
+    .cardHeading{
+       font-size: 5.5vw;
+    }
+    .cardIcon div{
+        width: 13vw;
+        height: 13vw;
+    }
+    .apply{
+         font-size: 3.5vw;
+    }
 }

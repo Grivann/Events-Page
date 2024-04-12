@@ -1,4 +1,13 @@
 .Events{
     width: 75%;
     margin: 7.5vh auto;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:750px){
+    .Events{
+        width: 85%;
+        /* margin: 0; */
+        
+    }
 }

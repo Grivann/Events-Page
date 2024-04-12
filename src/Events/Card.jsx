@@ -8,9 +8,9 @@ export default function Cards() {
                     <div className='cardIcon'>
                         <div></div>
                     </div>
-                    <h3 style={{ fontSize: "2.2vw" }}>Heading</h3>
-                    <p style={{ fontSize: "0.9vw" }}>Lorem, ipsum dolor sit amet consecedit tio aliquid placeat? At recusandae nulla, iste animi blanditiis deleniti maiores?</p>
-                    <div className='apply' style={{ marginTop: 'auto', fontSize: '0.9vw' }}>
+                    <h3 className='cardHeading'>Heading</h3>
+                    <p className='cardText'>Lorem, ipsum dolor sit amet consecedit tio aliquid placeat? At recusandae nulla, iste animi blanditiis deleniti maiores?</p>
+                    <div className='apply' >
                         <a href="#">
                             Apply Now  &nbsp;
                             <i className="fa-solid fa-arrow-up-right-from-square" style={{ height: '24px', width: '24px' }}></i>

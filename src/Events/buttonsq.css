@@ -8,3 +8,21 @@
     background: none;
     font-weight: 600;
 }
+.btnBox{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:750px){
+    .btnBox{
+        width: 70vw;
+    }
+    .sqbtn{
+        font-size: 3vw;
+        width: 30%;
+        height: 8vw;
+        border-radius: 7vw;
+        margin: 5vw 0 7vw 0;
+    }
+}

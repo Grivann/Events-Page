@@ -4,3 +4,8 @@
     margin: 3vw auto;
     grid-template-columns: 1fr 1fr;
 }
+@media(max-width:750px){
+    .cardTab{
+        grid-template-columns: 1fr;
+    }
+}

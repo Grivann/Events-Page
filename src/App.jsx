@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Event></Event>
+      {/* <Event></Event> */}
     </>
   )
 }
