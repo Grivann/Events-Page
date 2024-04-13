@@ -1,0 +1,11 @@
+.FTop2{
+    width: 40%;
+    display: flex;
+}
+.FTop2 div{
+    margin-top: 1vw;
+}
+.Address{
+    margin-left: 10vw;
+    margin-right: 30px;
+}
