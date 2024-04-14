@@ -9,3 +9,22 @@
     margin-left: 10vw;
     margin-right: 30px;
 }
+.FTop1p1{
+    font-size: 18px;
+}
+.FTop1p2{
+    font-size: 15px;
+    margin-top: 3vw;
+}
+
+@media(max-width:1100px){
+    .FTop2{
+        margin-top: 10vw;
+    }
+    .FTop1p1{
+        font-size: 14px;
+    }
+    .FTop1p2{
+        font-size: 12px;
+    }
+}

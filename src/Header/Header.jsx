@@ -1,13 +1,14 @@
-import TopBtnBox from "./TopBtnBox"
-import HeadingBox from "./HeadingBox"
+import NavBar from "./NavBar"
 import Logo from "./Logo"
+import Ham from "./Ham"
+import "./Header.css"
 
 export default function Header(){
     return(
-        <div style={{display:"flex", justifyContent:"space-between", height:"73px", alignItems:"center"}}>
+        <div className="header" >
             <Logo></Logo>
-            <HeadingBox></HeadingBox>
-            <TopBtnBox></TopBtnBox>
+            <NavBar></NavBar>
+
         </div>
     )
 }

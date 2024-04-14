@@ -8,7 +8,6 @@ export default function FTop2(){
         <div className="FTop2">
         <FTopAddress></FTopAddress>
         <FTopEmail></FTopEmail>
-
         </div>
     )
 }

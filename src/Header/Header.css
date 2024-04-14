@@ -1,0 +1,70 @@
+.Ham{
+    display: none;
+    font-size: 18px;
+    margin-right: 3vw;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    align-items: center;
+}
+.NavBar{
+    display: flex;
+    width: 82vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.at1250{
+    display: flex;
+    justify-content: space-between;
+}
+.headingBox{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+
+}
+.headingBox p:hover{
+    color: #22C55E;
+}
+
+
+@media(max-width:1250px){
+    .Ham{
+        display: inline;
+    }
+    .headingBox{
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+    }
+    .topBtnBox{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .headingBox p{
+        margin-bottom: 3.5vh;
+    }
+    .topBtnBox button {
+        margin-bottom: 3.5vh;
+    }
+    .NavBar{
+        padding-top: 10vw;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .header{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .at1250{
+        width: 100vw;
+        align-items: center;
+    }
+}

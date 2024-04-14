@@ -1,7 +1,5 @@
-export default function Heading(heading){
-    return(
-        <>
-            <p>Home</p>
-        </>
-    )
+import React from "react";
+
+export default function Heading({ text }) {
+  return <p>{text}</p>;
 }

@@ -1,7 +1,11 @@
-import './buttonsq.css'
+// Buttonsq.js
+import React from 'react';
+import './buttonsq.css';
 
-export default function Buttonsq(text,color){
-    return(
-        <button className='sqbtn'>All</button>
-    )
+export default function Buttonsq({ text}) {
+  return (
+    <button className='sqbtn'>
+      {text}
+    </button>
+  );
 }

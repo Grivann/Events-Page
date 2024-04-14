@@ -3,7 +3,12 @@
     margin-top: .5vw;
     padding-left: 4vw;
 }
-.Ftop1 p{
+.FTopText{
     font-size: 16px;
     margin-top: 2vw;
+}
+@media(max-width:1100px){
+    .FTopText{
+        display: none;
+    }
 }

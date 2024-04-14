@@ -1,0 +1,30 @@
+.FooterBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    padding-left: 4vw;
+}
+.Contact{
+    display: flex;
+    margin-right:7vw;
+    width: 150px;
+    justify-content: space-between;
+}
+.follow{
+    display: none;
+}
+@media(max-width:1100px){
+    .FooterBottom{
+        flex-direction: column-reverse;
+    }
+    .rigths{
+        margin-top: 12vw;
+    }
+    .Contact{
+        margin-right:7.9vw;
+        margin-top: 10vw;
+    }
+    .follow{
+        display: block;
+    }
+}
