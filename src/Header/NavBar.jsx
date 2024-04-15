@@ -1,13 +1,11 @@
-import TopBtnBox from "./TopBtnBox"
-import HeadingBox from "./HeadingBox"
+import TopBtnBox from "./TopBtnBox";
+import HeadingBox from "./HeadingBox";
 
-export default function NavBar(){
-
-    return(
-        <div className="NavBar" >
-            <HeadingBox></HeadingBox>
-            <TopBtnBox></TopBtnBox>
+export default function NavBar({ isTrue }) {
+    return (
+        <div className="NavBar" style={{ display: isTrue ? "none" : "flex" }}>
+            <HeadingBox />
+            <TopBtnBox />
         </div>
-    )
+    );
 }
-// // style={{display: isTrue? "none":"flex"}}

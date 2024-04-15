@@ -3,6 +3,7 @@ import React from 'react';
 import Buttonsq from './Buttonsq';
 
 export default function Sqbtns() {
+
   return (
     <div className='btnBox'>
       <Buttonsq text='All' />

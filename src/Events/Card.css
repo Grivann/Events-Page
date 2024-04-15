@@ -5,11 +5,17 @@
 .card{
     height: 23vw;
     width: 30vw;
-    background: radial-gradient(circle at bottom right, #06853b, #0f0f0f);
-    /* background-image: url("https://e-cell-server-bucket.s3.amazonaws.com/esummit/media/card/card_image_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT4QCDQECZPO6OMFG%2F20240413%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240413T103327Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e2413e729c858bd02cdb83d6d22d887bb0a9d2c4175c14808d1c7ec0de4e1b7e"); */
     border-radius: 20px;
     margin-bottom: 7.5vw;
+    background-size: cover;
+    transition: 0.5s ease;
+    opacity: 0.9;
 }
+.card:hover{
+    transform: scale(1.07);
+    opacity: 1;
+}
+
 .container{
     width: 70%;
     height: 100%;
@@ -57,7 +63,7 @@ a{
 
 @media(max-width:750px){
     .card{
-        width: 85vw;
+        width: 80vw;
         height: 62vw;
     }
     .cardText{
