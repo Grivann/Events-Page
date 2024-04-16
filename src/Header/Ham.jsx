@@ -2,10 +2,8 @@ import { useState } from "react"
 import NavBar from "./NavBar";
 
 
-export default function Ham() {
+export default function Ham({isTrue,setIsTrue,count,setCount}) {
 
-    const [isTrue, setIsTrue] = useState(true);
-    const [count, setCount] = useState(0);
     function change() {
         setIsTrue(prevIsTrue => !prevIsTrue);
         setCount(prevCount => prevCount + 1);

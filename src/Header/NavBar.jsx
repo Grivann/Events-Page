@@ -6,8 +6,7 @@ export default function NavBar({ isTrue,count }) {
     console.log(isTrue);
     console.log(count);
     return (
-        <div className="NavBar" >
-               {/* <h1>{count}</h1> */}
+<div className="NavBar" style={{ display: !isTrue ? "flex" : "none"  }}>
             <HeadingBox />
             <TopBtnBox />
         </div>
