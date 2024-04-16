@@ -4,10 +4,25 @@
     height: 2.7rem;
     border-radius: 2vw;
     padding: 0px;
-    border: white solid 2px;
-    background: none;
     font-weight: 600;
 }
+.sqbtn1{
+    border: white solid 2px;
+    background: none;
+}
+.sqbtn2{
+    font-size: .9vw;
+    width: 30%;
+    height: 2.7rem;
+    border-radius: 2vw;
+    padding: 0px;
+    border: none;
+    color: black;
+    background: rgb(68, 255, 176);
+    font-weight: 600;
+}
+
+
 .btnBox{
     width: 25%;
     display: flex;
